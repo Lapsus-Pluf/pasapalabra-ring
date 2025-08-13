@@ -1,0 +1,29 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# Set that this is the top-most EditorConfig file
+root = true
+
+# Define (for every file) to be as default:
+# - UTF-8 charset
+# - Unix-style line endings
+# - 2 spaces as indentation
+# - A newline ending
+# - Trailing whitespace trimmed
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Specific files configuration
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+[*.py]
+indent_size = 4
+[*.txt]
+indent_size = 4
+[Dockerfile]
+indent_size = 4
